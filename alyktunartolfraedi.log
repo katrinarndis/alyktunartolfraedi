@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.1)  17 JAN 2023 20:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.1)  17 JAN 2023 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,7 +720,7 @@ Chapter 3.
 [9
 
 ]
-Overfull \hbox (6.45348pt too wide) in paragraph at lines 255--255
+Overfull \hbox (6.45348pt too wide) in paragraph at lines 268--268
 []|\TU/lmr/m/n/10 Ómarktækt|  
  []
 
@@ -739,8 +739,8 @@ Package rerunfilecheck Info: File `alyktunartolfraedi.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  16956 strings out of 477736
- 314158 string characters out of 5841839
- 798082 words of memory out of 5000000
+ 314189 string characters out of 5841839
+ 798103 words of memory out of 5000000
  37774 multiletter control sequences out of 15000+600000
  475750 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

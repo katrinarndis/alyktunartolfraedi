@@ -1,0 +1,74 @@
+
+Nógu gott: 
+
+Index 
+Tilgátuprófun 
+marktektarpróf 
+öryggisbil 
+
+
+Betra: 
+Index 
+Tilgátuprófun 
+marktektarpróf 
+öryggisbil 
+
+
+Lokið! : 
+Index 
+Tilgátuprófun 
+marktektarpróf 
+öryggisbil 
+
+
+- Bæta við frumbreytu og flokkabreytu 
+- Bæta við samfelldu, flokka osfrv. 
+- bæta við text box 
+- ólíkar dreifingar 
+- forsendur prófa 
+- nánar um öryggisbil 
+- uppfletting í töflum 
+- z-próf 
+- t-próf 
+
+bæta við textbox. 
+- t.d. í index í setningu "Þessi spurning gefur til kynna að við "
+
+
+Svara gæja í fremstu röð 
+svara spurningu um verkefni 
+svara hinni spurningu um verkefni 
+tékka á lokaprófi 
+athuga með hjálparsíðu bókarinnar 
+leiðrétta levene misskilning. 
+
+
+
+yfirferð: 
+grunn hugtök + dæmi = 5 mínútur 
+tilgátur = 10 mín 
+marktekt = 40 mín 
+öryggisbil = 15 mín
+
+
+
+
+
+Próf levene
+Núlltilgáta = engin munur á dreifingu hópanna 
+Aðaltilgáta = það er munur á dreifingu hópanna 
+Marktækt próf = höfnum núlltilgátu 
+ómarktækt próf = getum ekki hafnað núlltilgátu 
+Núlltilgátan er sú sem er prófuð 
+
+Okkar túlkun
+Ef núll er rétt = einsleitni - engin munur á dreifingu hópanna 
+ef aðaltilgáta er rétt = þá hlýtur að vera munur = núll er röng = munur á dreifingu hópanna = misleitni. 
+Við viljum sýna fram á einsleitni, svo við þyrftum að fá próf sem gefur til kynna að núlltilgáta sé rétt.... 
+
+Marktækt próf = höfnum núlltilgátu = höfnum því að það sé engin munur á dreifingu hópanna. Tökum upp aðaltilgátu = það er munur - það er misleitni 
+
+Ómarktækt próf = getum ekki tekið upp aðaltilgátu - við staðfestum ekki misleitni, svo við gerum ráð fyrir að þá hljóti dreifingin að vera einsleit. 
+
+
+
