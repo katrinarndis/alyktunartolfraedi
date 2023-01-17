@@ -146,66 +146,105 @@
 \hypertarget{formuxe1li}{%
 \chapter{Formáli}\label{formuxe1li}}
 
-Í þessu skjali ætla ég að fara yfir nokkur hugtök og hugmyndir sem er gott að hafa á hreinu til að vera sem best undirbúin fyrir það sem framundan er í RATO-II.
+Í þessu skjali fer ég yfir nokkur grunn hugtök og hugmyndir sem er gott að kunna skil á. Athugið að þetta er óyfirfarið efni svo villur gætu leynst í textanum.
 
-\hypertarget{usage}{%
-\section{Usage}\label{usage}}
+\hypertarget{grunn-hugtuxf6k}{%
+\chapter{Grunn hugtök}\label{grunn-hugtuxf6k}}
 
-Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+Eftirfarandi eru grunnhugtök sem þarf að þekkja við lestur þessa skjals:
 
-Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
-
-The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
-
-\hypertarget{render-book}{%
-\section{Render book}\label{render-book}}
-
-You can render the HTML version of this example book without changing anything:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
+\tightlist
 \item
-  Find the \textbf{Build} pane in the RStudio IDE, and
+  \textbf{Þýði} er sá hópur sem við viljum læra eitthvað um; það getur
+  endurspeglað stóran hóp einstaklinga (Evrópubúar), smærri hóp
+  (Íslendingar) eða heldur lítinn hóp (nemendur HR).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Þýði þarf að vera skýr, afmarkaður hópur einstaklinga sem eiga
+    eitthvað sameiginlegt.
+  \end{itemize}
 \item
-  Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
-\end{enumerate}
+  \textbf{Úrtak} er sá hópur sem við mælum því við teljum hann endurspegla
+  þýðið. Við reynum yfirleitt að mynda úrtakið úr tilviljunarkenndum
+  hóp úr þýðinu.
+\item
+  \textbf{Þýðistölur} eru þau gildi sem myndu fást ef við hefðum aðgang að
+  öllu þýðinu.
 
-Or build the book from the R console:
+  \begin{itemize}
+  \tightlist
+  \item
+    Gefum okkur að við viljum vita hæð Íslendinga: Það er einhver
+    tala, raunveruleg meðalhæð, sem fengist ef við myndum mæla hæð
+    hvers einasta Íslendings. Það er, hið raunverulega gildi sem
+    fengist ef \textbf{öll stök þýðis} væru mæld. Það er þó sjaldnast
+    hægt að mæla \emph{alla} sem þýði samanstendur af -- því drögum við
+    úrtak og athugum eiginleika úrtaksins til að komast sem næst
+    raunverulegu gildi í þýði.
+  \end{itemize}
+\item
+  \textbf{Úrtakstölur} Eru því þau gildi sem fást frá úrtakinu okkar. Ef
+  við höldum áfram með dæmið um hæð Íslendinga, þá myndum við draga
+  handahófskennt úrtak af Íslendingum og myndum fá einhverja meðalhæð
+  í úrtakinu. Þessi meðalhæð í úrtakinu er dæmi um úrtakstölu. Hún er
+  það næsta sem við komumst því að vera hver hæðin er í
+  \emph{raunveruleikanum (þýðinu)}. \footnote{Hér er talað um fólk, því fólk er yfirleitt viðfangsefni
+    rannsókna í sálfræði. Það er þó auðvitað hægt að gera rannsóknir og
+    beita ályktunartölfræði á dýr, bíla, sveppi og jafnvel hnetusmjör.
+    Hugmyndin stendur þó -- þýði er heildin sem við viljum þekkja eða
+    draga ályktanir um -- en er gjarna of stór til að það sé raunsætt að
+    mæla hvert einasta stak sem tilheyrir því. (Stak er því gjarna notað
+    til að lýsa hverri einingu sem þýði samanstendur af, í þýði
+    Íslendinga myndi hver einstaklingur vera eitt stak í þýðinu).}
+\item
+  \textbf{Tilgátuprófun}: Þegar við setjum upp rannsóknir eða söfnum gögnum
+  þá höfum við einhverjar spurningar í huga sem við viljum leitast
+  svara við.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{render\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+  \begin{itemize}
+  \item
+    Tilgátuprófun er það ferli að setja spurninguna okkar fram í
+    formi tilgáta og nota viðeigandi tölfræðipróf til að fá einfalt
+    já/nei við spurningunni okkar eftir því hvort niðurstöður
+    reynist marktækar eða ómarktækar.
+  \item
+    Tilgátuprófun svarar spurningunni \textbf{hvort það sé munur} -- í
+    kjölfarið viljum við auðvitað vita \textbf{hve miklu munar} og notum
+    þá spá, þar sem úrtakstölur eru notaðar til að spá fyrir um
+    þýðisgildin.
+  \end{itemize}
+\end{itemize}
 
-To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
+\hypertarget{duxe6mi}{%
+\subsection*{Dæmi}\label{duxe6mi}}
+\addcontentsline{toc}{subsection}{Dæmi}
 
-\hypertarget{preview-book}{%
-\section{Preview book}\label{preview-book}}
+Við viljum vita hvort aukinn menntun skili sér í hærri launum á Íslandi.
 
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
+Hér er þýðið okkar afmarkað -- við erum að skoða fólk með búsetu á
+Íslandi. Úr því þýði myndum við draga úrtak, síðan myndum við athuga
+fjölda ára sem hver einstaklingur úrtaksins hefur verið í námi og hver
+mánaðarlaun viðkomandi eru.
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{serve\_book}\NormalTok{()}
-\end{Highlighting}
-\end{Shaded}
+Spurningin okkar er einnig skýr og við gætum endurorðað hana á
+eftirfarandi hátt: Eru mánaðarlaun að jafnaði hærri eftir því sem fjöldi
+ára í námi eykst? Við getum einfaldað spurninguna enn meira og athugað
+hvort það sé munur á meðallaunum þeirra sem hafa lokið háskólamenntun og
+þeirra sem hafa ekki lokið neinni háskólamenntun.
 
-\hypertarget{hello-bookdown}{%
-\chapter{Hello bookdown}\label{hello-bookdown}}
-
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (\texttt{\#}) per .Rmd file.
-
-\hypertarget{a-section}{%
-\section{A section}\label{a-section}}
-
-All chapter sections start with a second-level (\texttt{\#\#}) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
-
-\hypertarget{an-unnumbered-section}{%
-\subsection*{An unnumbered section}\label{an-unnumbered-section}}
-\addcontentsline{toc}{subsection}{An unnumbered section}
-
-Chapters and sections are numbered by default. To un-number a heading, add a \texttt{\{.unnumbered\}} or the shorter \texttt{\{-\}} at the end of the heading, like in this section.
+Tölfræðiforrit skilja ekki setningar -- við gætum ekki beinlínis sett
+gögn inn í úrvinnslu ásamt spurningunni "Eru mánaðarlaun að jafnaði
+hærri eftir því sem fjöldi ára í námi eykst?". Það má því ímynda sér
+ferlið í grófum dráttum á eftirfarandi hátt: Við yfirfærum spurninguna
+okkar yfir á \emph{tölfræðilegt form} sem forritið skilur og segjum því hvaða
+tölfræðiaðferð það eigi að nota við að svara spurningunni okkar.
+Forritið vinnur úr gögnunum fyrir okkur og spýtir út úr sér niðurstöðum.
+Þessar niðurstöður eru þá enn á \emph{tölfræðilegu formi} og það er okkar
+verk að skilja hvað niðurstöðurnar segja okkur og geta gefið túlkun sem
+setur þær aftur á \emph{mannamál}.
 
 \hypertarget{cross}{%
 \chapter{Cross-references}\label{cross}}
@@ -321,8 +360,7 @@ Footnotes are put inside the square brackets after a caret \texttt{\^{}{[}{]}}. 
 
 Reference items in your bibliography file(s) using \texttt{@key}.
 
-For example, we are using the \textbf{bookdown} package \citep{R-bookdown} (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015} (this citation was added manually in an external file book.bib).
-Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YAML \texttt{bibliography} key.
+For example, we are using the \textbf{bookdown} package \citep{R-bookdown} (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015} (this citation was added manually in an external file book.bib). Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YAML \texttt{bibliography} key.
 
 The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
 

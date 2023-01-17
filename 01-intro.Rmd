@@ -1,11 +1,80 @@
-# Hello bookdown 
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+# Grunn hugtök
 
-## A section
+Eftirfarandi eru grunnhugtök sem þarf að þekkja við lestur þessa skjals:
 
-All chapter sections start with a second-level (`##`) or higher heading followed by your section title, like the sections above and below here. You can have as many as you want within a chapter.
+-   **Þýði** er sá hópur sem við viljum læra eitthvað um; það getur
+    endurspeglað stóran hóp einstaklinga (Evrópubúar), smærri hóp
+    (Íslendingar) eða heldur lítinn hóp (nemendur HR).
+    -   Þýði þarf að vera skýr, afmarkaður hópur einstaklinga sem eiga
+        eitthvað sameiginlegt.
+-   **Úrtak** er sá hópur sem við mælum því við teljum hann endurspegla
+    þýðið. Við reynum yfirleitt að mynda úrtakið úr tilviljunarkenndum
+    hóp úr þýðinu.
+-   **Þýðistölur** eru þau gildi sem myndu fást ef við hefðum aðgang að
+    öllu þýðinu.
+    -   Gefum okkur að við viljum vita hæð Íslendinga: Það er einhver
+        tala, raunveruleg meðalhæð, sem fengist ef við myndum mæla hæð
+        hvers einasta Íslendings. Það er, hið raunverulega gildi sem
+        fengist ef **öll stök þýðis** væru mæld. Það er þó sjaldnast
+        hægt að mæla *alla* sem þýði samanstendur af -- því drögum við
+        úrtak og athugum eiginleika úrtaksins til að komast sem næst
+        raunverulegu gildi í þýði.
+-   **Úrtakstölur** Eru því þau gildi sem fást frá úrtakinu okkar. Ef
+    við höldum áfram með dæmið um hæð Íslendinga, þá myndum við draga
+    handahófskennt úrtak af Íslendingum og myndum fá einhverja meðalhæð
+    í úrtakinu. Þessi meðalhæð í úrtakinu er dæmi um úrtakstölu. Hún er
+    það næsta sem við komumst því að vera hver hæðin er í
+    *raunveruleikanum (þýðinu)*. [^01-intro-1]
+-   **Tilgátuprófun**: Þegar við setjum upp rannsóknir eða söfnum gögnum
+    þá höfum við einhverjar spurningar í huga sem við viljum leitast
+    svara við.
+    -   Tilgátuprófun er það ferli að setja spurninguna okkar fram í
+        formi tilgáta og nota viðeigandi tölfræðipróf til að fá einfalt
+        já/nei við spurningunni okkar eftir því hvort niðurstöður
+        reynist marktækar eða ómarktækar.
 
-### An unnumbered section {-}
+    -   Tilgátuprófun svarar spurningunni **hvort það sé munur** -- í
+        kjölfarið viljum við auðvitað vita **hve miklu munar** og notum
+        þá spá, þar sem úrtakstölur eru notaðar til að spá fyrir um
+        þýðisgildin.
 
-Chapters and sections are numbered by default. To un-number a heading, add a `{.unnumbered}` or the shorter `{-}` at the end of the heading, like in this section.
+[^01-intro-1]: Hér er talað um fólk, því fólk er yfirleitt viðfangsefni
+    rannsókna í sálfræði. Það er þó auðvitað hægt að gera rannsóknir og
+    beita ályktunartölfræði á dýr, bíla, sveppi og jafnvel hnetusmjör.
+    Hugmyndin stendur þó -- þýði er heildin sem við viljum þekkja eða
+    draga ályktanir um -- en er gjarna of stór til að það sé raunsætt að
+    mæla hvert einasta stak sem tilheyrir því. (Stak er því gjarna notað
+    til að lýsa hverri einingu sem þýði samanstendur af, í þýði
+    Íslendinga myndi hver einstaklingur vera eitt stak í þýðinu).
+
+### Dæmi {.unnumbered}
+
+Við viljum vita hvort aukinn menntun skili sér í hærri launum á Íslandi.
+
+Hér er þýðið okkar afmarkað -- við erum að skoða fólk með búsetu á
+Íslandi. Úr því þýði myndum við draga úrtak, síðan myndum við athuga
+fjölda ára sem hver einstaklingur úrtaksins hefur verið í námi og hver
+mánaðarlaun viðkomandi eru.
+
+Spurningin okkar er einnig skýr og við gætum endurorðað hana á
+eftirfarandi hátt: Eru mánaðarlaun að jafnaði hærri eftir því sem fjöldi
+ára í námi eykst? Við getum einfaldað spurninguna enn meira og athugað
+hvort það sé munur á meðallaunum þeirra sem hafa lokið háskólamenntun og
+þeirra sem hafa ekki lokið neinni háskólamenntun.
+
+Tölfræðiforrit skilja ekki setningar -- við gætum ekki beinlínis sett
+gögn inn í úrvinnslu ásamt spurningunni \"Eru mánaðarlaun að jafnaði
+hærri eftir því sem fjöldi ára í námi eykst?\". Það má því ímynda sér
+ferlið í grófum dráttum á eftirfarandi hátt: Við yfirfærum spurninguna
+okkar yfir á *tölfræðilegt form* sem forritið skilur og segjum því hvaða
+tölfræðiaðferð það eigi að nota við að svara spurningunni okkar.
+Forritið vinnur úr gögnunum fyrir okkur og spýtir út úr sér niðurstöðum.
+Þessar niðurstöður eru þá enn á *tölfræðilegu formi* og það er okkar
+verk að skilja hvað niðurstöðurnar segja okkur og geta gefið túlkun sem
+setur þær aftur á *mannamál*.

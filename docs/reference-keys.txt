@@ -2,11 +2,7 @@ fig:nice-fig
 tab:nice-tab
 eq:binom
 formáli
-usage
-render-book
-preview-book
-hello-bookdown
-a-section
+grunn-hugtök
 cross
 chapters-and-sub-chapters
 captioned-figures-and-tables
