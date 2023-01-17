@@ -225,6 +225,68 @@ div.csl-indent {
 <p>Ef líkurnar eru mjög litlar, þá ályktum við að það sé ólíklegt að núlltilgátan sé rétt. Ef við náum að hafna núlltilgátunni, þá tökum við upp aðaltilgátuna og ályktum þ.a.l. að það sé í raun munur á hópunum í þýði. Ef líkurnar eru miklar – t.d. ef niðurstöður segja okkur að það séu 50% líkur á að fá þessar úrtakstölur ef við drógum það af tilviljun úr þýði þar sem það er í raun enginn munur – þá myndum við hika verulega við að henda fram fullyrðingum.</p>
 <p>Næsta spurning er þá – hversu litlar þurfa líkurnar að vera svo við séum sátt?</p>
 <hr />
+<p><strong>Marktektarmörk</strong> (<span class="math inline">\(\alpha\)</span> ) lýsa því einmitt hvar við drögum línuna, algengast er að miða við við alpha 0,05.^[Undantekningar má t.d. finna í stjarnfræði þar sem við getum ekki tekið jafn mikla sénsa á að hafa rangt fyrir okkur.] Þessi tala (0,05) vísar til líkinda (5%) og við erum þá að segja að við viljum
+að það séu undir 5% líkur á að við höfum rangt fyrir okkur.</p>
+<p><strong>Marktektarpróf</strong> reikna fyrir okkur líkur þess að fá tilteknar niðurstöður ef núlltilgáta væri í raun rétt og kallar þær <em>p</em>-gildi. Ef við höfum ákveðið að draga mörkin við 5% líkindi (0,05) þá munu allar niðurstöður þar sem <em>p</em>-gildi er yfir 0,05 þýða að niðurstöður séu ómarktækar. <em>P</em> gildi yfir 0,05 þýðir að það séu yfir 5% líkur á að við höfum rangt fyrir okkur og við vorum jú búin að ákveða að draga mörkin við 5%.</p>
+<p>Athugum þó að 5% líkur (a = 0,05) er ekki það sama og 0% líkur. Það er, þó próf sé marktækt, þá <em>gætum</em> við haft rangt fyrir okkur. Þannig skoðum aðeins <em>hvernig</em> við getum haft rétt eða rangt fyrir okkur með því að gefa okkur eftirfarandi aðstæður í samhengi við dæmið okkar:</p>
+<ol style="list-style-type: decimal">
+<li><p>Það er í raun engin munur á launum eftir menntun svo núlltilgáta er rétt.</p>
+<ol style="list-style-type: decimal">
+<li><p>Ef niðurstöður okkar eru marktækar þá höfnum við núlltilgátu og tökum upp aðaltilgátu. Við ályktum þá að núlltilgátan sé röng og það sé í raun munur. Þetta kallast <strong>höfnunarmistök</strong> (type 1 error): við gerum þau <strong>mistök</strong> að <strong>hafna</strong> núlltilgátunni þegar hún er í raun rétt.</p></li>
+<li><p>Ef niðurstöður okkar eru ómarktækar þá getum við ekki hafnað núlltilgátunni og tökum því ekki upp aðaltilgátuna. Við ályktum að það sé ekki munur á launum hópana og höfum rétt fyrir okkur!</p></li>
+</ol></li>
+<li><p>Það er í raun munur á launum eftir menntun svo núlltilgáta er röng.</p>
+<ol style="list-style-type: decimal">
+<li><p>Ef niðurstöður okkar eru marktækar þá höfnum við núlltilgátu, tökum upp aðaltilgátu og ályktum að það sé í raun munur. Hér höfum við rétt fyrir okkur – núlltilgátan er í raun röng (það er munur) – niðurstöður okkar voru í samræmi við það = við tókum rétta ákvörðun!</p></li>
+<li><p>Ef niðurstöður okkar eru ómarktækar þá getum við ekki hafnað núlltilgátu, getum því ekki tekið upp aðaltilgátu og ályktum að það sé ekki munur á launum hópana. Þetta kallast <strong>fastheldnismistök</strong> (type II error): við gerum þau <strong>mistök</strong> að <strong>halda í</strong> núlltilgátu sem er, í
+raun, röng.</p></li>
+</ol></li>
+</ol>
+<hr />
+<p>Hvort væri verra, að gera höfnunarmistök eða fastheldnismistök?</p>
+<p>Hvorugt er gott en höfnunarmistök eru oft talin valda meiri skaða heldur en fastheldnimistök. Það byggir á þeim rökum að verra sé að hafa rangar upplýsingar heldur en að missa tímabundið af réttum upplýsingum. Það er, betra að segja "ég er ekki viss" heldur en að koma með fullyrðingu sem er röng.</p>
+<p>Það eru þó vissulega til aðstæður þar sem fastheldnimistök eru verri. Dæmi um slíkt væri til dæmis ef aukaverkun tiltekins lyfs væri aukin hætta á heilablóðfalli. Í því tilviki myndum við frekar vilja <em>err on the side of caution</em>. Við viljum frekar ganga út frá því að þessi hættulega aukaverkun sé raunverulegur möguleiki – og hafa rangt fyrir okkur – heldur en að hafa rangt fyrir okkur með því að segja að af lyfinu stafi engin hætta.</p>
+<p>Gefum okkur að eftirfarandi fullyrðingar:</p>
+<ul>
+<li><p>Þunglyndir eru líklegri til að sýna ofbeldisfulla hegðun.</p></li>
+<li><p>Tiltekið lyf eykur líkur á heilablóðfalli verulega.</p></li>
+<li><p>Hvernig gætum við yfirfært þessi tvö dæmi á fastheldni- og höfnunarmistök? Og hvor mistökin þætti okkur verri í hvoru dæmi fyrir sig?</p></li>
+</ul>
+<hr />
+<p>Hvernig fjöllum við um marktækar eða ómarktækar niðurstöður? Við erum enn að athuga hvort það sé munur á launum eftir menntun, við höfum safnað úrtaki og keyrum marktektarpróf á gögnin.</p>
+<ol style="list-style-type: decimal">
+<li>Ef niðurstöðurnar okkar reynast marktækar, þá höfnum við núlltilgátu og tökum upp aðaltilgátu. Úrtakið okkar sýndi nógu mikinn mun m.t.t. úrtaksstærðar og annarra atriða til að niðurstöðurnar þykja ólíklegar <strong>ef það væri í raun engin munur.</strong> Hér erum við ófeimin við að
+setja fram fullyrðingu þess efnis að það sé í raun munur á launum eftir menntun – við vorum beinlínis að sýna fram á það.</li>
+<li>Ef niðurstöðurnar reynast ómarktækar, þá höfnum við ekki núlltilgátu og getum því ekki tekið upp aðaltilgátu. Úrtakið okkar náði ekki að sýna fram á nógu mikinn mun m.t.t. úrtaksstærðar og annarra atriða til að niðurstöður þættu ólíklegar <strong>ef það væri í raun engin munur</strong>. Hér getum við þó <strong>ekki staðfest núlltilgátu</strong>; þ.e. þó við náðum ekki að hrekja núlltilgátu, þá getum við heldur ekki fullyrt að hún sé endilega rétt.
+<ol style="list-style-type: decimal">
+<li><p>Fyrir það fyrsta er verulega ólíklegt að núlltilgátan sé virkilega <strong>rétt</strong>. Ef núlltilgátan spáir því fyrir að launamunur eftir menntun sé núll, þá þýðir það strangt til orða tekið að munurinn
+þurfi að vera <strong>núll</strong>. Ekki núll komma eitthvað, ekki næstum því núll, það þyrfti raunverulega að vera <strong>engin</strong> munur. Þriðju breytu áhrif útaf fyrir sig gera það að verkum að það er oft <em>einhver</em> fylgni á milli jafnvel ólíklegustu hluta.</p></li>
+<li><p>Að auki þarf að hugsa þetta frá sjónarhorni rökhugsunar. Ef úrtakið okkar nær ekki að sýna fram á mun á milli hópa, þá þýðir það ekki að sá munur sé ekki raunverulega til staðar – það þýðir <strong>bara</strong> að við náðum ekki að sýna fram á mun. Mögulega þyrfti úrtakið að vera stærra, mældur munur í úrtaki að vera meiri oþh svo að marktektarprófið væri í stöðu til að yfirhöfuð ná að staðfesta þann mun sem raunverulega er til staðar.</p></li>
+</ol></li>
+</ol>
+<p>Þessi síðasti punktur leiðir að næstu pælingu, sem er; hversu mikill þarf munurinn að vera og hversu stórt þyrfti úrtakið að vera, svo að marktektarprófið ætti yfirhöfuð séns á að geta sýnt fram á þann mun sem raunverulega er til staðar? Hingað til höfum við verið að skoða mikið byggt frá því sjónarmiði hvort núlltilgátan sé rétt eða röng. Hér prufum við að snúa þessu við og hugsum dæmið út frá því að við vitum að <strong>aðaltilgátan</strong> sé rétt – af einhverri ástæðu vitum við fyrir víst að það sé raunverulega munur á launum þeirra sem hafa og hafa ekki lokið háskólamenntun. Afköst eru einmitt hæfni prófs, að gefnum tileknum aðstæðum – til að geta borið kennsl á þann mun sem er í raun og veru til staðar í þýði.</p>
+<p>Afköst endurspegla líkur þess að við höfum rétt fyrir okkur þegar núlltilgáta er röng (það er í raun munur á hópunum). Við getum þó einnig hugsað um þetta sem líkur þess að gera <strong>ekki fastheldnimistök</strong>. Við getum reiknað afköst í höndunum ^[Við ætlum ekki að gera það.], með forritlingum á netinu, skoðað sambærilegar rannsóknir og miðað við að finna a.m.k. eins mikið frávik og kemur fram í þeim ^[Við erum þá að skoða aðrar rannsóknir, þar sem viðfangsefni er svipað og úrtaksstærð er svipuð þeirri sem við ætlum okkur að safna til að fá hugmynd af því hve
+mikill munurinn er sem við þyrftum að finna til að sýna fram á marktekt.], eða nota staðlaðar áhrifastærðir ^[Cohens <em>d</em> er dæmi um staðlaða áhrifastærð – þá er gefið viðmið um það hvaða
+áhrifastærð telst nógu mikil. ]</p>
+<hr />
+<p>Að lokum þarf að huga að því að öll marktektarpróf byggja á forsendum sem eru ólíkar eftir því hvaða marktektarpróf um ræðir. Standist forsendur segir það okkur að útreikningur <em>p</em>-gilda sé að gefa okkur réttar líkur. Sé forsendubrestur til staðar er hættan sú að <em>p</em>-gildið sem fæst sé að of-
+eða vanmeta líkindin svo að við getum ekki lengur treyst því að þau alpha mörk sem við ákváðum eigi enn við.</p>
+<p>Nú höfum við farið yfir ferlið sem liggur að baki marktektarprófa og hvernig við túlkum <em>p</em>-gildið og getum þ.a.l. fjallað um niðurstöður sem marktækar eða ómarktækar. Marktektarpróf eru frábær og gefa okkur skýrt svar við þeirri spurningu sem við erum að leitast svara við. Við erum þannig komin með skýrt svar við spurningunni "er munur á launum eftir menntun?".</p>
+<p>Gefum okkur nú að svarið sé "já, það er munur á launum eftir menntun". Frábært – það er þó ekki nóg. Marktektarpróf geta sagt okkur <strong>hvort</strong> það sé munur en ekki <strong>hve mikill</strong> sá munur er. Marktækur munur þýðir bara að það sé ólíklegt að hann sé tilkomin af tilviljun en segir ekkert til um hve <em>merkilegur</em> sá munur er.</p>
+<p>Í launadæminu okkar mætti ímynda sér eftirfarandi niðurstöður:</p>
+<ul>
+<li><p>"Marktækur munur fannst á launum fólks eftir menntun þeirra". Byggt á þessari staðhæfingu myndi ég hugsa "flott – þannig ef ég mennta mig þá mætti ég búast við umtalsvert hærri launum fyrir vikið" – eða hvað?</p></li>
+<li><p>Taktu eftir að marktektarprófið var bara að athuga <strong>hvort</strong> það væri munur en var aldrei að reyna að segja til um hvort þessi marktæki munur væri <em>merkilegur</em>. Ég myndi því vilja vita "ok, flott – launin eru að jafnaði hærri. Ef ég eyði næstu árum í að sækja mér háskólamenntun – hversu mikið hærri væru launin að jafnaði, í samanburði við launin ef ég myndi ekki sækja mér
+háskólamenntun?"</p></li>
+<li><p>Raunin gæti verið sú að ef við berum saman þá sem hafa ekki háskólamenntun við þá sem hafa háskólamenntun, þá sé marktækur munur á laununum – en að sá munur sé að jafnaði aðeins 10.000kr á mánuði. Þrátt fyrir að munurinn sé <em>marktækur</em> þá er hann vissulega ekki <em>merkilegur</em> – enda fæstir sem væru til í að lifa við skertar tekjur til fleiri ára, í þeim tilgangi að sækja sér menntun, ef afrakstur þess væri að græða 10.000kr aukalega á mánuði í kjölfarið.</p></li>
+</ul>
+<p>Annað dæmi gæti verið að við fáum marktækar niðurstöður – aftur þá segir það okkur bara að það sé munur. Við getum athugað muninn sem fæst á launum í úrtakinu okkar og ályktum út frá því að munur á launum er <em>að jafnaði</em> 150.000 á mánuði. Þetta eru vissulega merkilegri niðurstöður en þær
+sem við fjölluðum um í dæminu á undan, þar sem munur var aðeins 10.000kr á mánuði.</p>
+<p>Við vitum þó að ekki <strong>allir</strong> þeir sem hafa háskólamenntun fái ákkurat 150.000kr meira í laun á mánuði – enda vissulega fleiri þættir sem spila inn í. Pælingin verður því "hversu mikið gæti þessi tala rokkað til eða frá?". Þessari pælingu er svarað með öryggisbili.</p>
+<p>Ef svarið væri "munurinn er að jafnaði 150.000kr á mánuði - til eða frá 10.000kr" þá værum við með frekar þröngt öryggisbil. Það er, m.v. öryggisbilið væri munurinn minnst 140.000kr og mest 160.000 á mánuði.</p>
+<p>Væri svarið hins vegar "munurinn er að jafnaði 150.000kr á mánuði – til eða frá 120.000kr" þá værum við með fáranlega breitt öryggisbil. Öryggisbilið væri þá að segja að þó munurinn sé að jafnaði 150.000kr, þá geti hann verið allt frá 10.000kr fyrir suma, en allt upp í 290.000kr fyrir aðra.</p>
+<p>Í seinna dæminu er óvissan töluvert meiri og niðurstöðurnar eru í raun að gefa okkur minni upplýsingar heldur en í fyrra dæminu. Seinna dæmið væri í raun að segja "það gæti verið fínn
+munur, hann gæti líka verið mikill, eða enginn – hver veit?" Eftir stendur að ef öryggisbilið er mjög vítt, þá erum við litlu nær – <em>þrátt fyrir að niðurstöður séu marktækar</em>.</p>
 
 </div>
             </section>
