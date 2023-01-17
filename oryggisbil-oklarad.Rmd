@@ -1,0 +1,25 @@
+## Nokkrir mikilvægir eiginleikar öryggisbils
+
+Breidd öryggisbila
+
+-   þröngt öryggisbil --\> lítil óvissa
+
+-   Vítt öryggisbil --\> mikil óvissa
+
+Öryggisbil reiknast út frá *öryggi* sem við ákveðum - algengast er að miða við 95% öryggi. \^[Einnig hægt að miða við t.d. 90% öryggi, eða 99% öryggi]
+
+Við getum ekki túlkað breidd öryggisbila út frá gildunum einum og sér
+
+-   Án samhengis þýða tölurnar ekkert.
+
+-   Íhugum fyrra dæmið okkar þar sem vikmörk = 10.000.
+
+    -   Talan 10.000 útaf fyrir sig, segir okkur ekkert.
+
+    -   Við túlkum þetta sem lítinn mun því við höfum tilfinningu fyrir því hvað 10.000kr er lág upphæð í þessu samhengi.
+
+    -   Gildið 10.000 væri mikið í öðrum aðstæðum: Annar mælikvarði, önnur frumbreyta, osfrv.
+
+-   
+
+## réttar og rangar túlkanir á öryggisbilum

@@ -2,6 +2,12 @@
 
 ## Footnotes
 
+## Forsendur 
+
+Að lokum þarf að huga að því að öll marktektarpróf byggja á forsendum sem eru ólíkar eftir því hvaða marktektarpróf um ræðir. Standist forsendur segir það okkur að útreikningur *p*-gilda sé að gefa okkur réttar líkur. Sé forsendubrestur til staðar er hættan sú að *p*-gildið sem fæst sé að of- eða vanmeta líkindin svo að við getum ekki lengur treyst því að þau alpha mörk sem við ákváðum eigi enn við.
+
+Jú við gætum búist við hærri tekjum fyrir vikið \^[]
+
 Footnotes are put inside the square brackets after a caret `^[]`. Like this one [^04-citations-1].
 
 [^04-citations-1]: This is a footnote.
