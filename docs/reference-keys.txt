@@ -1,12 +1,10 @@
-fig:nice-fig
-tab:nice-tab
 eq:binom
 formáli
 grunn-hugtök
 cross
-chapters-and-sub-chapters
-captioned-figures-and-tables
-parts
+aðaltilgáta
+núlltilgáta
+marktekt
 footnotes-and-citations
 footnotes
 citations

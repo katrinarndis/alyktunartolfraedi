@@ -1,0 +1,16 @@
+# Marktekt
+
+Við gætum skoðað úrtakstölurnar okkar og séð að í úrtakinu séu meðallaun þeirra sem hafa litla menntun ólík þeirra sem hafa mikla menntun. Tilgangur þess að beita ályktunartölfræði er þó ekki til að *spá fyrir* um úrtakið okkar -- úrtakstölurnar eru jú beint fyrir framan okkur, lýsandi tölfræði myndi því duga til að lýsa þeim. Sá munur sem við sjáum í úrtakinu okkar gæti þó verið tilkominn af hreinni tilviljun. Ímyndum okkur tvö dæmi:
+
+1.  20 manna úrtak þar sem launamunur reynist 10kr á milli þeirra sem hafa háskólamenntun og þeirra sem hafa ekki háskólamenntun. Í þessu úrtaki er vissulega munur en það er einnig auðvelt að ímynda okkur að m.v. úrtakstölur, þá sé í raun engin munur á launum hópana í þýði. Þ.e. þessi 10kr munur endurspeglar bara þá tilviljun sem má búast við þegar við drögum úrtak.
+2.  2000 manna úrtak þar sem launamunur reynist 100.000kr á milli hópanna. Hér þætti okkur frekar ólíklegt að svo mikill munur fyndist, af tilviljun, í svo stóru úrtaki **ef það væri í raun engin munur á hópunum í þýði**.
+
+Eftir því sem munurinn er meiri og úrtakið stærra, þeim mun ólíklegra verður að þykja að þessar úrtakstölur séu einskær tilviljun. Þá situr eftir sú spurning -- hversu mikill munur er nógu mikill? Og þá miðað við hversu stórt úrtak?
+
+Marktektarpróf \^[Ásamt fleiri spurningum sem marktektarpróf tekur til greina við útreikning -- þetta er einföldun.] tekur tillit til ýmissa upplýsinga um úrtakið okkar og athugar líkur þess að fá okkar úrtakstölur **ef þetta úrtak kæmi úr þýði þar sem núlltilgátan er í raun rétt. ** *Ef það er í raun **enginn** munur á launum þeirra sem hafa og hafa ekki háskólamenntun, hverjar eru þá líkurnar á því að fá 100.000kr mun í úrtaki með 2.000 manns?*  
+
+Ef líkurnar eru mjög litlar, þá ályktum við að það sé ólíklegt að núlltilgátan sé rétt. Ef við náum að hafna núlltilgátunni, þá tökum við upp aðaltilgátuna og ályktum þ.a.l. að það sé í raun munur á hópunum í þýði. Ef líkurnar eru miklar -- t.d. ef niðurstöður segja okkur að það séu 50% líkur á að fá þessar úrtakstölur ef við drógum það af tilviljun úr þýði þar sem það er í raun enginn munur -- þá myndum við hika verulega við að henda fram fullyrðingum.
+
+Næsta spurning er þá -- hversu litlar þurfa líkurnar að vera svo við séum sátt?
+
+------------------------------------------------------------------------

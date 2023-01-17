@@ -69,8 +69,8 @@ hvort það sé munur á meðallaunum þeirra sem hafa lokið háskólamenntun o
 þeirra sem hafa ekki lokið neinni háskólamenntun.
 
 Tölfræðiforrit skilja ekki setningar -- við gætum ekki beinlínis sett
-gögn inn í úrvinnslu ásamt spurningunni \"Eru mánaðarlaun að jafnaði
-hærri eftir því sem fjöldi ára í námi eykst?\". Það má því ímynda sér
+gögn inn í úrvinnslu ásamt spurningunni "Eru mánaðarlaun að jafnaði
+hærri eftir því sem fjöldi ára í námi eykst?". Það má því ímynda sér
 ferlið í grófum dráttum á eftirfarandi hátt: Við yfirfærum spurninguna
 okkar yfir á *tölfræðilegt form* sem forritið skilur og segjum því hvaða
 tölfræðiaðferð það eigi að nota við að svara spurningunni okkar.
