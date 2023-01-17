@@ -33,10 +33,8 @@ eftir menntun viðkomandi.
 ### Aðaltilgáta
 
 **Aðaltilgáta** [^01-tilgatuprofun-1] er sú tilgáta sem við höfum áhuga
-á og tilgreinir einhvers konar mun. \^[undantekningar á þessu er t.d.
-þegar við beitum marktektarprófum við mat á forsendum]. Vandamálið er að
-hún tilgreinir enga fasta tölu sem hægt er að prófa og því ógerlegt að
-prófa hana beint.
+á ^[Undantekningar eru t.d. þegar við beitum marktektarprófum við mat á forsendum] og tilgreinir einhvers konar mun. Vandamálið er að hún tilgreinir enga
+fasta tölu sem hægt er að prófa og því ógerlegt að prófa hana beint.
 
 [^01-tilgatuprofun-1]: Einnig kölluð gagntilgáta, rannsóknartilgáta, (e.
     alternative hypothesis)
