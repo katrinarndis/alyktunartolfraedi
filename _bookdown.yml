@@ -1,5 +1,9 @@
-delete_merged_file: true
+book_filename: "alyktunartolfraedi"
 language:
   ui:
     chapter_name: ""
-    output_dir: "docs" 
+  label:
+    fig: "Mynd "
+    tab: "Tafla "
+delete_merged_file: true
+output_dir: "docs"
