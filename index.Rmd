@@ -41,14 +41,13 @@ Eftirfarandi eru hugtök sem þarf að þekkja við lestur þessa skjals:
     (Íslendingar) eða heldur lítinn hóp (nemendur HR).
     -   Þýði þarf að vera skýr, afmarkaður hópur einstaklinga sem eiga
         eitthvað sameiginlegt.[^index-1]
--   **Þýðistölur** eru þau gildi sem myndu fást ef við hefðum aðgang að
+-   **Þýðistölur** eru þau gildi sem fengjust ef við hefðum aðgang að
     öllu þýðinu.
     -   Gefum okkur að við viljum vita hæð Íslendinga, það er einhver
-        meðalhæð sem fengist ef **öll stök þýðis** væru mæld.
-
-    -   Það er þó sjaldnast hægt að mæla *alla* sem þýði samanstendur af
-        -- við drögum því úrtak og athugum eiginleika úrtaksins til að
-        komast sem næst raunverulegu þýðisgildi.
+        meðalhæð sem fengist ef **öll stök þýðis** væru mæld. Við getum
+        ekki mælt *alla* sem þýði samanstendur af -- við drögum því
+        úrtak og athugum eiginleika úrtaksins til að komast sem næst
+        raunverulegu þýðisgildi.
 -   **Úrtak** er sá hópur sem við mælum því við teljum hann endurspegla
     þýðið. Við reynum yfirleitt að draga með tilviljunarkenndum hætti úr
     þýði.
@@ -63,19 +62,18 @@ Eftirfarandi eru hugtök sem þarf að þekkja við lestur þessa skjals:
     viljum draga ályktanir um og sú heild samanstendur af stökum. Í þýði
     Íslendinga væri hver Íslendingur 1 stak.
 
-### Dæmi sem unnið verður með. {.unnumbered}
+### Dæmi sem verður unnið með. {.unnumbered}
 
-*Við viljum vita hvort háskólamenntaðir, í samanburði við þá sem ekki
-hafa háskólamenntun, fái hærri laun á Íslandi.*
+*Við viljum vita hvort háskólamenntaðir fái hærri laun heldur en þau sem
+hafa ekki háskólamenntun á Íslandi.*
 
-Hér er þýðið okkar afmarkað -- við erum að skoða fólk með búsetu á
+Hér höfum við afmarkað þýði -- við erum að skoða fólk með búsetu á
 Íslandi. Úr þýði Íslendinga myndum við draga úrtak og athuga menntun og
-mánaðarlaun hvers einstaklings í úrtakinu.
-
-Spurningin okkar er einnig skýr en hana mætti endurorða á eftirfarandi
-hátt: eru mánaðarlaun að jafnaði ólík á milli þeirra sem hafa
-háskólamenntun og þeirra sem hafa hana ekki?
-
-<!-- Þessi spurning gefur til kynna að við séum með tvo hópa af fólki og athugum hvort munur sé á meðallaunum hópana. Eftir því hvernig við kjósum að mæla breyturnar og hvaða tölfræðiaðferð við notum gæti spurningin þó verið sett upp á ólíkan hátt. -->
+mánaðarlaun hvers einstaklings í úrtakinu. Rannsóknarspurningin er
+einnig skýr en hana mætti endurorða á eftirfarandi hátt: Við viljum
+athuga hvort meðal mánaðarlaun á Íslandi séu að jafnaði ólík á milli
+tveggja hópa; þeirra sem hafa háskólamenntun og þeirra sem hafa hana
+ekki. ^[Spurningin gæti þó verið sett upp á ólíkan hátt eftir því
+hvernig við kjósum að mæla breyturnar og hvaða tölfræðiaðferð við notum]
 
 <!-- Spurningin okkar er einnig skýr og við gætum endurorðað hana á eftirfarandi hátt: Eru mánaðarlaun að jafnaði hærri eftir því sem fjöldi ára í námi eykst? Við getum einfaldað spurninguna enn meira og athugað hvort það sé munur á meðallaunum þeirra sem hafa lokið háskólamenntun og þeirra sem hafa ekki lokið neinni háskólamenntun. -->
