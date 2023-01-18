@@ -1,22 +1,21 @@
 # Öryggisbil
 
-Niðurstöður okkar voru marktækar - við teljum því ólíklegt að munurinn sem fannst í úrtakinu sé tilkomin af tilviljun en vitum ekki hve *merkilegur* sá munur er. Næsta spurning er því "*Hve mikill er launamunur þeirra sem hafa háskólamenntun og þeirra sem hafa hana ekki?*"
+Niðurstöður eru marktækar svo nú göngum við út frá því að það sé launamunur eftir menntun. Næsta spurning er þá "*Hve miklu munar á launum þeirra sem hafa háskólamenntun og þeirra sem hafa hana ekki?*". Möguleikarnir eru ótalmargir, svo gefum okkur tvær aðstæður:
 
-Raunin gæti verið sú að ef við berum saman þá sem hafa ekki háskólamenntun við þá sem hafa háskólamenntun, þá sé marktækur munur á laununum -- en að sá munur sé að jafnaði aðeins 10.000kr á mánuði. Þrátt fyrir að munurinn sé *marktækur* þá er hann vissulega ekki *merkilegur* -- enda svarar það varla kostnaði að lifa við skertar tekjur til fleiri ára, í þeim tilgangi að sækja sér menntun, ef afrakstur þess eru 10.000kr aukalega á mánuði í kjölfarið.
+1.  Munurinn er að jafnaði 10.000kr á mánuði. Þrátt fyrir að sá munur væri *marktækur* þá er hann vissulega ekki *merkilegur* -- enda svarar það varla kostnaði að lifa við skertar tekjur til fleiri ára til að sækja sér menntun, ef afrakstur þess eru 10.000kr aukalega á mánuði í kjölfarið.
+2.  Munurinn er að jafnaði 150.000kr á mánuði. Þetta eru vissulega merkilegri (og skemmtilegri) niðurstöður heldur en í dæminu á undan.
 
-Gefum okkur skemmtilegri niðurstöður, að munurinn sé *að jafnaði* 150.000 á mánuði. Þetta eru vissulega merkilegri niðurstöður en þær sem við fjölluðum um í dæminu á undan (þar sem munur var aðeins 10.000kr á mánuði).
+Bæði dæmin lýsa **punktspá**; það næsta sem við komumst að vita hver munurinn sé í þýði er með því að athuga hver munurinn er í úrtakinu.
 
-Bæði dæmin lýsa **punktspá**, það næsta sem við komumst að vita hver munurinn sé í þýði er með því að athuga hver munurinn er í úrtakinu. Við vitum þó að ekki **allir** þeir sem hafa háskólamenntun fái ákkurat 150.000kr meira í laun á mánuði -- enda vissulega fleiri þættir sem spila inn í. Pælingin verður því "hversu mikið gæti þetta spágildi rokkað til eða frá?".
-
-Þessari pælingu er svarað með **bilspá,** öryggisbil er dæmi um bilspá auk þess að vera sennilega sú mest notaða. Öryggisbil gefa okkur **vikmörk** í kringum punktspánna. Þegar hingað er komið vitum við að "það er munur og hann er að jafnaði 150.000kr á mánuði". Öryggisbil bætir við þessa túlkun; tökum tvö dæmi:
+Við vitum þó að ekki **öll** sem hafa háskólamenntun fái ákkurat 150.000kr hærri laun á mánuði -- enda vissulega fleiri þættir sem spila inn í. Pælingin verður þá "hversu mikið gæti þetta spágildi rokkað til eða frá?". Þessari pælingu er svarað með **bilspá**; öryggisbil er sennilega dæmi um þá bilspá sem er mest notuð. Öryggisbil gefa okkur **vikmörk** í kringum punktspána. Þegar hingað er komið vitum við að "það er munur og hann er að jafnaði 150.000kr á mánuði". Öryggisbil bætir við þessa túlkun -- tökum tvö dæmi:
 
 1.  Öryggisbil = [140.000 ; 160.000]
-    -   Þetta myndi segja okkur að launamunur sé að jafnaði 150.000kr á mánuði - til eða frá 10.000kr.
+    -   Það er, launamunur er að jafnaði 150.000kr -- til eða frá 10.000kr.
 
-    -   Hér er öryggisbilið frekar þröngt, punktspáin helst sú sama og það er lítil óvissa sem fylgir henni.
+    -   Hér er öryggisbilið þröngt, punktspáin helst óbreytt og það er lítil óvissa sem fylgir henni.
 2.  Öryggisbil = [10.000 ; 290.000]
-    -   Þetta myndi segja okkur að launamunurinn sé að jafnaði 150.000kr á mánuði - til eða frá 120.000kr.
+    -   Það er, launamunur er að jafnaði 150.000kr á mánuði - til eða frá 120.000kr.
 
-    -   Hér er öryggisbilið vítt, punktspáin er sú sama en það er mikil óvissa sem fylgir henni. Munurinn gæti verið allt frá mjög ómerkilegum upp í umtalsverður. Launamunur gæti verið allt frá 10.000kr fyrir suma, upp í 290.000kr fyrir aðra.
+    -   Hér er öryggisbilið vítt, punktspáin helst óbreytt en það er mikil óvissa sem fylgir henni. Þessi óvissa endurspeglast í því að munurinn gæti verið allt frá mjög ómerkilegum upp í umtalsverðan; hann gæti verið 10.000kr fyrir suma, upp í 290.000kr fyrir aðra.
 
-Í seinna dæminu er óvissan töluvert meiri og niðurstöðurnar eru í raun að gefa okkur minni upplýsingar heldur en í fyrra dæminu. Seinna dæmið væri í raun að segja "það gæti verið fínn munur, hann gæti líka verið mikill, eða enginn -- hver veit?" Eftir stendur að ef öryggisbilið er mjög vítt, þá erum við litlu nær -- *þrátt fyrir að niðurstöður séu marktækar*.
+Í seinna dæminu er óvissan töluvert meiri og niðurstöðurnar eru í raun að gefa okkur minni upplýsingar heldur en í fyrra dæminu. Seinna dæmið væri í raun að segja "það er sennilega fínn munur, hann gæti líka verið mikill, eða nærri enginn - hver veit?" Eftir stendur að ef öryggisbilið er mjög vítt, þá erum við litlu nær -- *þrátt fyrir að niðurstöður séu marktækar*.
