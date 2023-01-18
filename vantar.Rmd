@@ -1,3 +1,11 @@
+Íhugið eftirfarandi fullyrðingar:
+
+Þunglyndir einstaklingar eru ofbeldisfullir
+
+Tiltekinn barnabílstóll er öruggur
+
+Hvernig gætum við yfirfært þessi tvö dæmi á fastheldni- og höfnunarmistök? Og hvor mistökin þætti okkur verri í hvoru dæmi fyrir sig?
+
 
 Nógu gott: 
 
@@ -69,4 +77,8 @@ Marktækt próf = höfnum núlltilgátu = höfnum því að það sé engin munu
 Ómarktækt próf = getum ekki tekið upp aðaltilgátu - við staðfestum ekki misleitni, svo við gerum ráð fyrir að þá hljóti dreifingin að vera einsleit. 
 
 
+
+
+https://bookdown.org/yihui/rmarkdown/bookdown-start.html
+bookdown::render_book()
 
