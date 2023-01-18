@@ -1,3 +1,7 @@
+Breyta um lit á skilgreiningum 
+setja tilvísun aftast í orðabok
+
+
 Íhugið eftirfarandi fullyrðingar:
 
 Þunglyndir einstaklingar eru ofbeldisfullir

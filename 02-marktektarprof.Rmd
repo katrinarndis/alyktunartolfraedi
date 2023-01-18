@@ -2,7 +2,7 @@
 
 Þegar við skoðum úrtakið okkar gætum við séð mun á launum þeirra sem hafa og hafa ekki háskólamenntun. Tilgangur ályktunartölfræði er þó ekki *spá fyrir um* úrtakið okkar -- úrtakstölurnar eru jú beint fyrir framan okkur svo lýsandi tölfræði myndi duga til að lýsa þeim. Munurinn sem við sjáum í úrtakinu okkar gæti þó verið tilkomin af hreinni tilviljun:
 
-1.  20 manna úrtak þar sem launamunur reynist 1.000kr á milli þeirra sem hafa háskólamenntun og þeirra sem hafa ekki háskólamenntun. Í þessu úrtaki er vissulega munur en það er auðvelt að ímynda sér að hann sé ekki að endurspegla mun í þýði. Það er, að þessi 1.000kr munur endurspeglar aðeins þá tilviljun sem má búast við þegar dregið er í úrtak.
+1.  20 manna úrtak þar sem launamunur reynist 10.000kr á milli þeirra sem hafa háskólamenntun og þeirra sem hafa ekki háskólamenntun. Í þessu úrtaki er vissulega munur en það er auðvelt að ímynda sér að hann sé ekki að endurspegla mun í þýði. Það er, að þessi 10.000kr munur sé tilviljun sem búast mætti við í smáu úrtaki.
 
 2.  2.000 manna úrtak þar sem launamunur reynist 100.000kr á milli hópanna. Hér þætti okkur frekar ólíklegt að svo mikill munur fyndist af tilviljun, í svo stóru úrtaki, **ef það væri engin munur á hópunum í þýði**.
 
@@ -12,9 +12,9 @@ Eftir því sem munurinn er meiri og úrtakið stærra, þeim mun ólíklegra ve
 
 Marktektarpróf athugar líkur þess að fá tilteknar úrtakstölur **ef úrtakið kæmi úr þýði þar sem núlltilgátan er í raun rétt.** *Ef það er í raun **enginn** munur á launum þeirra sem hafa og hafa ekki háskólamenntun, hverjar eru þá líkurnar á því að fá 100.000kr mun í úrtaki sem samanstendur af 2.000 einstaklingum?*
 
-Ef líkurnar eru mjög litlar, þá er sömuleiðis ólíklegt að núlltilgátan sé rétt. Ef við höfnum núlltilgátunni, þá tökum við upp aðaltilgátuna og ályktum þ.a.l. að það sé í raun munur á hópunum í þýði.
+Ef líkurnar eru mjög litlar, þá er sömuleiðis ólíklegt að núlltilgátan sé rétt. Þegar við höfnum núlltilgátunni, þá tökum við upp aðaltilgátuna og ályktum að það sé í raun munur á hópunum í þýði.
 
-Ef líkurnar væru hins vegar miklar, þ.e. ef það væru 50% líkur á að fá okkar úrtakstölur þegar úrtakið væri dregið af tilviljun úr þýði þar sem engin munur væri, þá myndum við hika verulega við að henda fram fullyrðingum.
+Ef það væru hins vegar miklar líkur á úrtaksgildunum þegar það væri dregið úr þýði þar sem engin munur er, þá myndum við hika verulega við að henda fram fullyrðingum. Við færum varla að koma með staðhæfingar ef við vitum að það eru 50% líkur á að niðurstaðan sé tilkomin af tilviljun.
 
 Næsta spurning er þá -- hversu litlar þurfa líkurnar að vera svo við séum sátt?
 
