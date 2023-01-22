@@ -29,7 +29,7 @@ The HTML output format for this example is bookdown::gitbook,</p>" />
 <meta name="author" content="Katrín Arndís" />
 
 
-<meta name="date" content="2023-01-18" />
+<meta name="date" content="2023-01-22" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -37,7 +37,7 @@ The HTML output format for this example is bookdown::gitbook,</p>" />
   
   
 <link rel="prev" href="marktekt.html"/>
-
+<link rel="next" href="z-próf.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -103,7 +103,14 @@ The HTML output format for this example is bookdown::gitbook,</p>" />
 <li class="chapter" data-level="3.6" data-path="marktekt.html"><a href="marktekt.html#afköst"><i class="fa fa-check"></i><b>3.6</b> Afköst</a></li>
 <li class="chapter" data-level="3.7" data-path="marktekt.html"><a href="marktekt.html#loka-pælingar-um-marktekt."><i class="fa fa-check"></i><b>3.7</b> Loka pælingar um marktekt.</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="öryggisbil.html"><a href="öryggisbil.html"><i class="fa fa-check"></i><b>4</b> Öryggisbil</a></li>
+<li class="chapter" data-level="4" data-path="öryggisbil.html"><a href="öryggisbil.html"><i class="fa fa-check"></i><b>4</b> Öryggisbil</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="öryggisbil.html"><a href="öryggisbil.html#mikilvægir-eiginleikar-öryggisbila"><i class="fa fa-check"></i><b>4.1</b> Mikilvægir eiginleikar öryggisbila</a></li>
+<li class="chapter" data-level="4.2" data-path="öryggisbil.html"><a href="öryggisbil.html#hvað-stjórnar-breidd-öryggisbila"><i class="fa fa-check"></i><b>4.2</b> Hvað stjórnar breidd öryggisbila?</a></li>
+<li class="chapter" data-level="4.3" data-path="öryggisbil.html"><a href="öryggisbil.html#öryggið-í-öryggisbilum"><i class="fa fa-check"></i><b>4.3</b> Öryggið í öryggisbilum</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="z-próf.html"><a href="z-próf.html"><i class="fa fa-check"></i><b>5</b> <em>Z</em>-próf</a></li>
+<li class="chapter" data-level="6" data-path="breytingar-á-skjali.html"><a href="breytingar-á-skjali.html"><i class="fa fa-check"></i><b>6</b> Breytingar á skjali</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
 
@@ -141,42 +148,60 @@ The HTML output format for this example is bookdown::gitbook,</p>" />
 </ul></li>
 <li>Öryggisbil = [10.000 ; 290.000]
 <ul>
-<li><p>Það er, launamunur er að jafnaði 150.000kr á mánuði - til eða frá 120.000kr.</p></li>
+<li><p>Það er, launamunur er að jafnaði 150.000kr á mánuði - til eða frá 140.000kr.</p></li>
 <li><p>Hér er öryggisbilið vítt, punktspáin helst óbreytt en það er mikil óvissa sem fylgir henni. Þessi óvissa endurspeglast í því að munurinn gæti verið allt frá mjög ómerkilegum upp í umtalsverðan; hann gæti verið 10.000kr fyrir suma, upp í 290.000kr fyrir aðra.</p></li>
 </ul></li>
 </ol>
 <p>Í seinna dæminu er óvissan töluvert meiri og niðurstöðurnar eru í raun að gefa okkur minni upplýsingar heldur en í fyrra dæminu. Seinna dæmið væri í raun að segja “það er sennilega fínn munur, hann gæti líka verið mikill, eða nærri enginn - hver veit?” Eftir stendur að ef öryggisbilið er mjög vítt, þá erum við litlu nær – <em>þrátt fyrir að niðurstöður séu marktækar</em>.</p>
+<div id="mikilvægir-eiginleikar-öryggisbila" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Mikilvægir eiginleikar öryggisbila<a href="öryggisbil.html#mikilvægir-eiginleikar-öryggisbila" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Það er algengast að notast við 95% öryggisbil, en hvað þýða þessi 95%? Þessi 95% vísa til þess að ef sama aðferð er notuð síendurtekið, þá munu 95% öryggisbila sem fást innihalda raunverulegt þýðisgildi.</p>
+<p><strong>Lengri útskýring á ofangreindri setningu:</strong></p>
+<p>Við drögum úrtak af tiltekinni stærð úr þýði og reiknum öryggisbil sem gefur okkur tiltekin gildi. Ef við myndum síðan draga annað úrtak af sömu stærð úr sama þýði, þá myndum við ekki búast við að gildi þess úrtaks yrðu nákvæmlega þau sömu og í fyrsta úrtakinu (við búumst við <em>einhverjum</em> breytileika á milli úrtaka) svo þegar við reiknum öryggisbil fyrir seinna úrtakið mætti einnig búast við því að gildi þess yrðu a.m.k. smávægilega frábrugðin þeim sem fengust frá fyrsta úrtakinu.</p>
+<p>Ímyndum okkur nú að við myndum beita þessari aðferð síendurtekið; við myndum draga nýtt og nýtt úrtak af sömu stærð úr sama þýði og reikna öryggisbil fyrir hvert úrtak. Að lokum værum við komin með aragúa af öryggisbilum sem væru a.m.k. lítillega ólík hvert öðru.</p>
+<p>Þegar við miðum við 95% öryggisbil, þá segir það í raun að af öllum öryggisbilunum sem fást, þá munu 95% þeirra innihalda raunverulega þýðistölu.</p>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="images/endurtekin_oryggisbil.png" alt="Endurtekin öryggisbil" width="448" />
+<p class="caption">
+Mynd 4.1: Endurtekin öryggisbil
+</p>
+</div>
+<p>Við getum prófað okkur áfram með forritlingum á netinu, til dæmis <a href="http://digitalfirst.bfwpub.com/stats_applet/stats_applet_4_ci.html">þessum</a></p>
+<p>Efst á mynd 4.1 sjáum við tvær dreifingar; <strong>svarta</strong> línan sýnir raunverulega dreifingu í þýði en sú <strong>rauða</strong> sýnir úrtaksdreifingu þegar dregið er úr þýði með tilviljunarkenndum hætti. <strong>Græna línan</strong> sem liggur lóðrétt niður myndina endurspeglar raunverulegt þýðismeðaltal. Á línuna hafa verið teiknuð 15 öryggisbil sem gætu fengist. Það er, þarna hafa 15 úrtök verið dregin úr þýðinu með tilviljunarkenndum hætti og öryggisbil reiknað fyrir hvert þeirra. Við sjáum að raunverulegt þýðisgildi liggur innan bilsins í 14 tilfellum af 15. Eitt bilið inniheldur þó ekki þýðisgildið, í þessu úrtaki fellur raunverulegt þýðisgildi utan bilsins.</p>
+<hr />
+<p>Skoðum nú öryggisbilið sem er rautt. “<em>Hverjar eru líkurnar á því að þetta öryggisbil innihaldi raunverulegt þýðisgildi?</em>” Það eru engar líkur á því að þýðisgildið sé inn á þessu tiltekna bili. Við getum því ekki litið á eitt öryggisbil og sagt “<em>það eru 95% líkur á að raunverulegt þýðisgildi sé innan bilsins</em>” því það hreinlega liggur ekki inn á bilinu.</p>
+<p><strong>Mikilvægur punktur:</strong> Við getum ekki túlkað einstaka öryggisbil líkt og það séu 95% líkur á að það innihaldi þýðisgildið. Bilið ýmist inniheldur þýðisgildið, eða ekki. Við vitum ekki hvort okkar öryggisbil sé eitt af þessum 95% eða meðal þeirra 5% sem innihalda þýðisgildið ekki. Við vitum bara að <em>aðferðin</em> sem við erum að nota muni í 95% tilfella skila okkur öryggisbili sem inniheldur þýðisgildið.</p>
+<p>Skoðum nú efstu tvö öryggisbilin. Á báðum liggur þýðisgildið inn á bilinu; á því fyrsta liggur það við efri mörk bilsins, á því seinna liggur það rétt fyrir miðju.</p>
+<p><strong>Mikilvægur punktur:</strong> Við vitum ekki hvar á öryggisbilinu þýðisgildið liggur. Við vitum bara að það liggur <em>sennilega</em> einhverstaðar innan þess.</p>
+</div>
+<div id="hvað-stjórnar-breidd-öryggisbila" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Hvað stjórnar breidd öryggisbila?<a href="öryggisbil.html#hvað-stjórnar-breidd-öryggisbila" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Úrtaksstærð</strong> Eftir því sem úrtak er stærra –&gt; þeim mun minni breytileiki er í gögnunum –&gt; þeim mun minni óvissa er til staðar –&gt; þeim mun þrengra er bilið.</p>
+<ul>
+<li>Sömuleiðis eftir því sem úrtak er smærra –&gt; þeim mun meiri breytileiki er í gögnunum –&gt; þeim mun meiri óvissa er til staðar –&gt; þeim mun breiðara er bilið.</li>
+</ul>
+<p><strong>Staðalfrávik</strong> Eftir því sem staðalfrávik er lægra –&gt; minni breytileiki í gögnunum –&gt; minni óvissa –&gt; þrengra bil.</p>
+<ul>
+<li>Sömuleiðis; eftir því sem staðalfrávik er hærra –&gt; meiri breytileiki í gögnunum –&gt; meiri óvissa –&gt; víðara bil.</li>
+</ul>
+<p><strong>Öryggið</strong> sem við miðum við, hærra öryggi gefur breiðara bil á meðan lægra öryggi gefur þrengra bil. Skoðum hvers vegna í næsta hluta:</p>
+</div>
+<div id="öryggið-í-öryggisbilum" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Öryggið í öryggisbilum<a href="öryggisbil.html#öryggið-í-öryggisbilum" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Þó langalgengast sé að nota 95% öryggisbil er þó hægt að hækka eða lækka öryggið. Hvaða afleiðingar hefur það?</p>
+<p><strong>90% öryggisbil:</strong> Ef við notum 90% öryggi, þá þýðir það að 90% bila munu innihalda raunverulegt þýðisgildi. Þegar við <strong>lækkum</strong> öryggið, þá þrengist bilið sömuleiðis. Þetta er vegna þess að kröfurnar eru ekki jafn miklar; aðeins 90% bilana þurfa að innihalda raunverulegt þýðisgildi svo bilið getur verið þrengra (í samanburði við 95%ÖB)</p>
+<p><strong>99% öryggisbil:</strong> Ef við notum 99% öryggi, þá þurfa 99% bilana að innihalda raunverulegt þýðisgildi. Þegar við <strong>hækkum</strong> öryggið, þá víkkar bilið sömuleiðis. Kröfurnar eru meiri þar sem 99% bilana þurfa að innihalda raunverulegt þýðisgildi, bilið verður víðara fyrir vikið til að tryggja að þýðisgildið muni vera innan bilsins í 99% tilfella.</p>
+<p>Athugið að þetta þýðir ekki að <strong><em>allar</em></strong> úrvinnslur þar sem notast er við 99% öryggi munu allar gefa víðara bil heldur en þær úrvinnslur þar sem notast er við 95% öryggi. Ofangreindur samanburður gefur einfaldlega upp afleiðingar þess að breyta öryggi í tiltekinni rannsókn (þ.e. sömu gögn með ólíkt öryggi)</p>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="marktekt.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="marktekt.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="z-próf.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

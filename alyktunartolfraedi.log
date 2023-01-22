@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.1)  18 JAN 2023 03:13
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.1)  22 JAN 2023 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,26 +719,49 @@ Chapter 2.
 Chapter 3.
 [9
 
-] [10] [11] [12] [13] [14]
+]
+Overfull \hbox (3.20895pt too wide) in paragraph at lines 271--271
+[]|\TU/lmr/bx/n/10 Ómarktækt|  
+ []
+
+[10] [11] [12] [13] [14]
 Chapter 4.
 [15
 
 ]
+File: images/endurtekin_oryggisbil.png Graphic file (type bmp)
+<images/endurtekin_oryggisbil.png>
+
+Overfull \hbox (319.32088pt too wide) in paragraph at lines 430--430
+[][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 24.07312pt on input line 431.
+
+[16] [17] [18] [19] [20
+
+]
+Chapter 5.
+[21] [22]
+Chapter 6.
 No file alyktunartolfraedi.bbl.
-[16] (./alyktunartolfraedi.aux)
+[23
+
+] (./alyktunartolfraedi.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `alyktunartolfraedi.out' has not changed.
-(rerunfilecheck)             Checksum: C44D8BF3DE95507827FE456F3643E6D1;1552.
+(rerunfilecheck)             Checksum: F17DF7414A0DED87CB9F316C780AF97F;2435.
  ) 
 Here is how much of TeX's memory you used:
- 16956 strings out of 477736
- 314189 string characters out of 5841839
- 798104 words of memory out of 5000000
- 37774 multiletter control sequences out of 15000+600000
- 475750 words of font info for 86 fonts, out of 8000000 for 9000
+ 16990 strings out of 477736
+ 315122 string characters out of 5841839
+ 798412 words of memory out of 5000000
+ 37800 multiletter control sequences out of 15000+600000
+ 475758 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,8n,121p,871b,459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on alyktunartolfraedi.pdf (16 pages).
+Output written on alyktunartolfraedi.pdf (23 pages).

@@ -1,0 +1,19 @@
+# Breytingar á skjali
+
+**Útgáfa 1**: 18 janúar
+
+**Útgáfa 2**: 22 janúar
+
+-   **Breytingar:**
+
+    -   Vikmörk í dæmi 2 um öryggisbil lagfært - þar voru þau 120.000 en áttu að vera 140.000
+
+-   **Bætt við:**
+
+    -   Kafla 4.1: Mikilvægir eiginleikar öryggisbila
+
+    -   Kafla 4.2: Hvað stjórnar breidd öryggisbila?
+
+    -   Kafla 4.3: Öryggið í öryggisbilum
+
+    -   Kafla 5: Z-próf

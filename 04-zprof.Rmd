@@ -1,0 +1,23 @@
+# *Z*-próf
+
+*Z*-próf er einfaldasta marktektarprófið og byggir á normaldreifingu (*z*-dreifing). Prófið gerir ráð fyrir að staðalfrávik þýðis sé þekkt. Við þekkjum auðvitað sjaldnast staðalfrávik þýðis þó vissulega séu til dæmi um það. Til dæmis er greindarvísitala stöðluð og fylgir normaldreifingu (þar sem meðaltalið er 100 og staðalfrávik 15).
+
+Við gætum viljað athuga hvort meðalgreind sálfræðinema við HR sé ólík þekktri meðalgreind; við myndum mæla greind í úrtaki nemenda og gætum síðan notað *z*-próf til að athuga hvort meðalgreind nemendana víki marktækt frá þekktri meðalgreind.
+
+Rifjum upp það sem stóð í kafla 3:
+
+> Marktektarpróf athugar líkur þess að fá tilteknar úrtakstölur **ef úrtakið kæmi úr þýði þar sem núlltilgátan er í raun rétt.**
+
+-   Núlltilgáta: Meðalgreind sálfræðinema er sú sama og þekkt meðalgreind. Það er engin munur, munurinn = 0.
+
+    -   *Til upprifjunar:* marktektarprófið prófar núlltilgátuna!
+
+-   Aðaltilgáta: Meðalgreind sálfræðinema er **ekki** sú sama og þekkt meðalgreind. Það er munur, munurinn er $\neq$ 0.
+
+Við getum vel ímyndað okkur að fá meðalgreind 103 í úrtaki af 15 manns, af tilviljun. Ólíklegra væri að fá meðalgreind 130 í 50 manna úrtaki, af tilviljun (ef núlltilgáta væri rétt og meðalgreind sálfræðinema er 100).
+
+Marktektarprófið athugar líkur þess að fá okkar niðurstöður ef núlltilgátan væri rétt og svarar því spurningunni: "*EF núlltilgátan er rétt - það er í raun engin munur á meðaltölunum, hverjar væru þá líkur þess að fá svo mikið frávik í 50 manna úrtaki?"*
+
+-   Ef líkur þess eru **yfir** 5% (p \> 0,05), þá tölum við um að prófið sé **ómarktækt** (gefið $\alpha$ = 0,05).
+-   Ef líkur þess eru **undir** 5% (p \< 0,05), þá tölum við um að prófið sé **marktækt** (gefið að $\alpha$ = 0,05).
+    -   Litlar líkur --\> ólíklegt að núlltilgáta sé rétt --\> marktækt próf --\> höfnum núlltilgátu --\> höfnum því að það sé enginn munur --\> tökum upp aðaltilgátu --\> ályktum að það sé munur = meðalgreind sálfræðinema við HR er **ekki** 100 (þekkt meðalgreind)

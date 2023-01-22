@@ -1,111 +1,61 @@
-Breyta um lit á skilgreiningum 
-setja tilvísun aftast í orðabok
+## Almennar lagfæringar 
+
+- Breyta um lit á skilgreiningum 
+- setja tilvísanir aftast í orðabok
+- bæta við textbox. 
+  - t.d. í index í setningu "Þessi spurning gefur til kynna að við "
 
 
-Íhugið eftirfarandi fullyrðingar:
+# Umfjöllun sem vantar 
 
-Þunglyndir einstaklingar eru ofbeldisfullir
-núll = engin munur á ofbeldi þunglyndra og annarra 
-aðal = munur 
-marktækt = hafna núll - taka upp aðal = það er munur á ofbeldi þunglyndra og annarra 
-höfum rangt fyrir okkur = höfnum núll þegar við áttum ekki að gera það = höfnunarmistök. 
-mistökin hér valda óréttmætum fordómum
-
-andstæðan væri
-ómarktækt = höfnum ekki núll - tökum ekki upp aðal = gerum ráð fyrir engum mun á ofbeldi þunglyndra og annarra 
-höfum rangt fyrir okkur = höldum fast í núll þegar hún er röng = fastheldnimistök
-fastheldni veldur hér að fólk veit ekki að þunglyndir séu ofbeldisfyllri, þegar þau eru það í raun 
-
-höfnunar eru verri! 
-
-
-Tiltekinn barnabílstóll er öruggur
-núll = engin munur á slysatíðni bílstóla 
-aðal = munur á slysatíðni bílstóla
-marktækt = höfnum núll - tökum upp aðal = þa er munur 
-höfum rangt fyrir okkur = höfnum núll þegar við áttum ekki að ger aþað = höfnunarmistök 
-mistökin valda því að fólk heldur að stóll sé verri en aðrir þegar hann er það ekki í raun. 
-
-andstæðan væri 
-ómarktækt = höfnum ekki núll ......
-
-
-
-Hvernig gætum við yfirfært þessi tvö dæmi á fastheldni- og höfnunarmistök? Og hvor mistökin þætti okkur verri í hvoru dæmi fyrir sig?
-
-
-Nógu gott: 
-
-marktektarpróf 
-öryggisbil 
-
-
-Betra: 
-Index 
-Tilgátuprófun 
-marktektarpróf 
-öryggisbil 
-
-
-Lokið! : 
-Index 
-Tilgátuprófun 
-marktektarpróf 
-öryggisbil 
-
-
-- Bæta við frumbreytu og flokkabreytu 
+## Hugtök - tegundir breyta 
+- Frumbreyta 
+- fylgibreyta 
 - Bæta við samfelldu, flokka osfrv. 
-- bæta við text box 
-- ólíkar dreifingar 
-- forsendur prófa 
-- nánar um öryggisbil 
+
+## Forsendur: 
+Að lokum þarf að huga að því að öll marktektarpróf byggja á forsendum sem eru ólíkar eftir því hvaða marktektarpróf um ræðir. Standist forsendur segir það okkur að útreikningur p-gilda sé að gefa okkur réttar líkur. Sé forsendubrestur til staðar er hættan sú að p-gildið sem fæst sé að of- eða vanmeta líkindin svo að við getum ekki lengur treyst því að þau alpha mörk sem við ákváðum eigi enn við.
+Jú við gætum búist við hærri tekjum fyrir vikið ^[]
+
+##Yfirlit marktektarprófa: 
+- z próf: einfaldasta marktektarprófið. Notar normaldreifingu, þýðisstaðalfrávik er þekkt. 
+- t próf: byggir á breyttri útgáfu normaldreifingar - t.dreifingu. 
+
+
+## Útskýra normaldreifingu 
+
+
+
+## Z próf 
 - uppfletting í töflum 
 - z-próf 
-- t-próf 
-
-bæta við textbox. 
-- t.d. í index í setningu "Þessi spurning gefur til kynna að við "
-
-
-Svara gæja í fremstu röð 
-svara spurningu um verkefni 
-svara hinni spurningu um verkefni 
-tékka á lokaprófi 
-athuga með hjálparsíðu bókarinnar 
-leiðrétta levene misskilning. 
+- Einhliða vs tvíhliða: 
+Prófið getur ýmist verið einhliða eða tvíhliða eftir því hvort aðaltilgátan tilgreinir frávik upp á við, niður á við eða í hvora átt sem er. 
+Þetta er sama og við fjölluðum um í tilgátum, þ.e. ef tilgátan okkar er einhliða þá notum við einhliða próf. Ef tilgátan okkar er tvíhliða þá notum við tvíhliða próf. (þ.e. hvort við séum að segja „hærra en / lægra en / ólíkt“ ) 
+https://www.statisticshowto.com/probability-and-statistics/z-score/ 
+```{r, include=FALSE, fig.cap="mynd 2. formula z-prófs"}
+knitr::include_graphics("images/zprof_formula.png")
+```
 
 
-
-yfirferð: 
-grunn hugtök + dæmi = 5 mínútur 
-tilgátur = 10 mín 
-marktekt = 40 mín 
-öryggisbil = 15 mín
+Ef aðaltilgátan er einhliða þá stendur p-gildið eins og það kemur úr töflunni. 
+Ef aðaltilgátan er tvíhliða þá þarf sömuleiðis að tvöfalda p-gildið til að gera grein fyrir báðum endum kúrfunnar. 
 
 
 
 
-
-Próf levene
-Núlltilgáta = engin munur á dreifingu hópanna 
-Aðaltilgáta = það er munur á dreifingu hópanna 
-Marktækt próf = höfnum núlltilgátu 
-ómarktækt próf = getum ekki hafnað núlltilgátu 
-Núlltilgátan er sú sem er prófuð 
-
-Okkar túlkun
-Ef núll er rétt = einsleitni - engin munur á dreifingu hópanna 
-ef aðaltilgáta er rétt = þá hlýtur að vera munur = núll er röng = munur á dreifingu hópanna = misleitni. 
-Við viljum sýna fram á einsleitni, svo við þyrftum að fá próf sem gefur til kynna að núlltilgáta sé rétt.... 
-
-Marktækt próf = höfnum núlltilgátu = höfnum því að það sé engin munur á dreifingu hópanna. Tökum upp aðaltilgátu = það er munur - það er misleitni 
-
-Ómarktækt próf = getum ekki tekið upp aðaltilgátu - við staðfestum ekki misleitni, svo við gerum ráð fyrir að þá hljóti dreifingin að vera einsleit. 
+## Nánar um öryggisbil 
 
 
 
 
-https://bookdown.org/yihui/rmarkdown/bookdown-start.html
-bookdown::render_book()
+## T próf 
+
+
+
+
+
+# Almennt sem ég þarf að athuga
+- tékka á lokaprófi 
+- athuga með hjálparsíðu bókarinnar 
 

@@ -77,7 +77,7 @@
 
 \title{Inngangur að ályktunartölfræði}
 \author{Katrín Arndís}
-\date{2023-01-18}
+\date{2023-01-22}
 
 \begin{document}
 \maketitle
@@ -154,7 +154,8 @@ einnig skýr en hana mætti endurorða á eftirfarandi hátt: Við viljum
 athuga hvort meðal mánaðarlaun á Íslandi séu að jafnaði ólík á milli
 tveggja hópa; þeirra sem hafa háskólamenntun og þeirra sem hafa hana
 ekki. \footnote{Spurningin gæti þó verið sett upp á ólíkan hátt eftir því
-  hvernig við kjósum að mæla breyturnar og hvaða tölfræðiaðferð við notum}
+  hvernig við kjósum að mæla breyturnar og hvaða tölfræðiaðferð við
+  notum}
 
 \hypertarget{tilguxe1tupruxf3fun}{%
 \chapter{Tilgátuprófun}\label{tilguxe1tupruxf3fun}}
@@ -259,9 +260,9 @@ Næsta spurning er þá -- hversu litlar þurfa líkurnar að vera svo við séu
 Höfum samt í huga að þó 5\% séu lágar líkur, þá eru þær ekki 0\% -- svo við \emph{gætum} við haft rangt fyrir okkur. Skoðum því aðeins hvernig niðurstaða gæti verið rétt eða röng með því að gefa okkur eftirfarandi aðstæður í þýði:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2466}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3836}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3699}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1705}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4432}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3864}}@{}}
 \caption{Tafla 1. Mögulegar niðurstöður marktektarprófs ef við þekkjum aðstæður í þýði.}\tabularnewline
 \toprule()
 \endhead
@@ -404,13 +405,151 @@ Við vitum þó að ekki \textbf{öll} sem hafa háskólamenntun fái ákkurat 1
 
   \begin{itemize}
   \item
-    Það er, launamunur er að jafnaði 150.000kr á mánuði - til eða frá 120.000kr.
+    Það er, launamunur er að jafnaði 150.000kr á mánuði - til eða frá 140.000kr.
   \item
     Hér er öryggisbilið vítt, punktspáin helst óbreytt en það er mikil óvissa sem fylgir henni. Þessi óvissa endurspeglast í því að munurinn gæti verið allt frá mjög ómerkilegum upp í umtalsverðan; hann gæti verið 10.000kr fyrir suma, upp í 290.000kr fyrir aðra.
   \end{itemize}
 \end{enumerate}
 
 Í seinna dæminu er óvissan töluvert meiri og niðurstöðurnar eru í raun að gefa okkur minni upplýsingar heldur en í fyrra dæminu. Seinna dæmið væri í raun að segja ``það er sennilega fínn munur, hann gæti líka verið mikill, eða nærri enginn - hver veit?'' Eftir stendur að ef öryggisbilið er mjög vítt, þá erum við litlu nær -- \emph{þrátt fyrir að niðurstöður séu marktækar}.
+
+\hypertarget{mikilvuxe6gir-eiginleikar-uxf6ryggisbila}{%
+\section{Mikilvægir eiginleikar öryggisbila}\label{mikilvuxe6gir-eiginleikar-uxf6ryggisbila}}
+
+Það er algengast að notast við 95\% öryggisbil, en hvað þýða þessi 95\%? Þessi 95\% vísa til þess að ef sama aðferð er notuð síendurtekið, þá munu 95\% öryggisbila sem fást innihalda raunverulegt þýðisgildi.
+
+\textbf{Lengri útskýring á ofangreindri setningu:}
+
+Við drögum úrtak af tiltekinni stærð úr þýði og reiknum öryggisbil sem gefur okkur tiltekin gildi. Ef við myndum síðan draga annað úrtak af sömu stærð úr sama þýði, þá myndum við ekki búast við að gildi þess úrtaks yrðu nákvæmlega þau sömu og í fyrsta úrtakinu (við búumst við \emph{einhverjum} breytileika á milli úrtaka) svo þegar við reiknum öryggisbil fyrir seinna úrtakið mætti einnig búast við því að gildi þess yrðu a.m.k. smávægilega frábrugðin þeim sem fengust frá fyrsta úrtakinu.
+
+Ímyndum okkur nú að við myndum beita þessari aðferð síendurtekið; við myndum draga nýtt og nýtt úrtak af sömu stærð úr sama þýði og reikna öryggisbil fyrir hvert úrtak. Að lokum værum við komin með aragúa af öryggisbilum sem væru a.m.k. lítillega ólík hvert öðru.
+
+Þegar við miðum við 95\% öryggisbil, þá segir það í raun að af öllum öryggisbilunum sem fást, þá munu 95\% þeirra innihalda raunverulega þýðistölu.
+
+\begin{figure}
+\includegraphics[width=12.43in]{images/endurtekin_oryggisbil} \caption{Endurtekin öryggisbil}\label{fig:unnamed-chunk-2}
+\end{figure}
+
+Við getum prófað okkur áfram með forritlingum á netinu, til dæmis \href{http://digitalfirst.bfwpub.com/stats_applet/stats_applet_4_ci.html}{þessum}
+
+Efst á mynd 4.1 sjáum við tvær dreifingar; \textbf{svarta} línan sýnir raunverulega dreifingu í þýði en sú \textbf{rauða} sýnir úrtaksdreifingu þegar dregið er úr þýði með tilviljunarkenndum hætti. \textbf{Græna línan} sem liggur lóðrétt niður myndina endurspeglar raunverulegt þýðismeðaltal. Á línuna hafa verið teiknuð 15 öryggisbil sem gætu fengist. Það er, þarna hafa 15 úrtök verið dregin úr þýðinu með tilviljunarkenndum hætti og öryggisbil reiknað fyrir hvert þeirra. Við sjáum að raunverulegt þýðisgildi liggur innan bilsins í 14 tilfellum af 15. Eitt bilið inniheldur þó ekki þýðisgildið, í þessu úrtaki fellur raunverulegt þýðisgildi utan bilsins.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Skoðum nú öryggisbilið sem er rautt. ``\emph{Hverjar eru líkurnar á því að þetta öryggisbil innihaldi raunverulegt þýðisgildi?}'' Það eru engar líkur á því að þýðisgildið sé inn á þessu tiltekna bili. Við getum því ekki litið á eitt öryggisbil og sagt ``\emph{það eru 95\% líkur á að raunverulegt þýðisgildi sé innan bilsins}'' því það hreinlega liggur ekki inn á bilinu.
+
+\textbf{Mikilvægur punktur:} Við getum ekki túlkað einstaka öryggisbil líkt og það séu 95\% líkur á að það innihaldi þýðisgildið. Bilið ýmist inniheldur þýðisgildið, eða ekki. Við vitum ekki hvort okkar öryggisbil sé eitt af þessum 95\% eða meðal þeirra 5\% sem innihalda þýðisgildið ekki. Við vitum bara að \emph{aðferðin} sem við erum að nota muni í 95\% tilfella skila okkur öryggisbili sem inniheldur þýðisgildið.
+
+Skoðum nú efstu tvö öryggisbilin. Á báðum liggur þýðisgildið inn á bilinu; á því fyrsta liggur það við efri mörk bilsins, á því seinna liggur það rétt fyrir miðju.
+
+\textbf{Mikilvægur punktur:} Við vitum ekki hvar á öryggisbilinu þýðisgildið liggur. Við vitum bara að það liggur \emph{sennilega} einhverstaðar innan þess.
+
+\hypertarget{hvauxf0-stjuxf3rnar-breidd-uxf6ryggisbila}{%
+\section{Hvað stjórnar breidd öryggisbila?}\label{hvauxf0-stjuxf3rnar-breidd-uxf6ryggisbila}}
+
+\textbf{Úrtaksstærð} Eftir því sem úrtak er stærra --\textgreater{} þeim mun minni breytileiki er í gögnunum --\textgreater{} þeim mun minni óvissa er til staðar --\textgreater{} þeim mun þrengra er bilið.
+
+\begin{itemize}
+\tightlist
+\item
+  Sömuleiðis eftir því sem úrtak er smærra --\textgreater{} þeim mun meiri breytileiki er í gögnunum --\textgreater{} þeim mun meiri óvissa er til staðar --\textgreater{} þeim mun breiðara er bilið.
+\end{itemize}
+
+\textbf{Staðalfrávik} Eftir því sem staðalfrávik er lægra --\textgreater{} minni breytileiki í gögnunum --\textgreater{} minni óvissa --\textgreater{} þrengra bil.
+
+\begin{itemize}
+\tightlist
+\item
+  Sömuleiðis; eftir því sem staðalfrávik er hærra --\textgreater{} meiri breytileiki í gögnunum --\textgreater{} meiri óvissa --\textgreater{} víðara bil.
+\end{itemize}
+
+\textbf{Öryggið} sem við miðum við, hærra öryggi gefur breiðara bil á meðan lægra öryggi gefur þrengra bil. Skoðum hvers vegna í næsta hluta:
+
+\hypertarget{uxf6ryggiuxf0-uxed-uxf6ryggisbilum}{%
+\section{Öryggið í öryggisbilum}\label{uxf6ryggiuxf0-uxed-uxf6ryggisbilum}}
+
+Þó langalgengast sé að nota 95\% öryggisbil er þó hægt að hækka eða lækka öryggið. Hvaða afleiðingar hefur það?
+
+\textbf{90\% öryggisbil:} Ef við notum 90\% öryggi, þá þýðir það að 90\% bila munu innihalda raunverulegt þýðisgildi. Þegar við \textbf{lækkum} öryggið, þá þrengist bilið sömuleiðis. Þetta er vegna þess að kröfurnar eru ekki jafn miklar; aðeins 90\% bilana þurfa að innihalda raunverulegt þýðisgildi svo bilið getur verið þrengra (í samanburði við 95\%ÖB)
+
+\textbf{99\% öryggisbil:} Ef við notum 99\% öryggi, þá þurfa 99\% bilana að innihalda raunverulegt þýðisgildi. Þegar við \textbf{hækkum} öryggið, þá víkkar bilið sömuleiðis. Kröfurnar eru meiri þar sem 99\% bilana þurfa að innihalda raunverulegt þýðisgildi, bilið verður víðara fyrir vikið til að tryggja að þýðisgildið muni vera innan bilsins í 99\% tilfella.
+
+Athugið að þetta þýðir ekki að \textbf{\emph{allar}} úrvinnslur þar sem notast er við 99\% öryggi munu allar gefa víðara bil heldur en þær úrvinnslur þar sem notast er við 95\% öryggi. Ofangreindur samanburður gefur einfaldlega upp afleiðingar þess að breyta öryggi í tiltekinni rannsókn (þ.e. sömu gögn með ólíkt öryggi)
+
+\hypertarget{z-pruxf3f}{%
+\chapter{\texorpdfstring{\emph{Z}-próf}{Z-próf}}\label{z-pruxf3f}}
+
+\emph{Z}-próf er einfaldasta marktektarprófið og byggir á normaldreifingu (\emph{z}-dreifing). Prófið gerir ráð fyrir að staðalfrávik þýðis sé þekkt. Við þekkjum auðvitað sjaldnast staðalfrávik þýðis þó vissulega séu til dæmi um það. Til dæmis er greindarvísitala stöðluð og fylgir normaldreifingu (þar sem meðaltalið er 100 og staðalfrávik 15).
+
+Við gætum viljað athuga hvort meðalgreind sálfræðinema við HR sé ólík þekktri meðalgreind; við myndum mæla greind í úrtaki nemenda og gætum síðan notað \emph{z}-próf til að athuga hvort meðalgreind nemendana víki marktækt frá þekktri meðalgreind.
+
+Rifjum upp það sem stóð í kafla 3:
+
+\begin{quote}
+Marktektarpróf athugar líkur þess að fá tilteknar úrtakstölur \textbf{ef úrtakið kæmi úr þýði þar sem núlltilgátan er í raun rétt.}
+\end{quote}
+
+\begin{itemize}
+\item
+  Núlltilgáta: Meðalgreind sálfræðinema er sú sama og þekkt meðalgreind. Það er engin munur, munurinn = 0.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Til upprifjunar:} marktektarprófið prófar núlltilgátuna!
+  \end{itemize}
+\item
+  Aðaltilgáta: Meðalgreind sálfræðinema er \textbf{ekki} sú sama og þekkt meðalgreind. Það er munur, munurinn er \(\neq\) 0.
+\end{itemize}
+
+Við getum vel ímyndað okkur að fá meðalgreind 103 í úrtaki af 15 manns, af tilviljun. Ólíklegra væri að fá meðalgreind 130 í 50 manna úrtaki, af tilviljun (ef núlltilgáta væri rétt og meðalgreind sálfræðinema er 100).
+
+Marktektarprófið athugar líkur þess að fá okkar niðurstöður ef núlltilgátan væri rétt og svarar því spurningunni: ``\emph{EF núlltilgátan er rétt - það er í raun engin munur á meðaltölunum, hverjar væru þá líkur þess að fá svo mikið frávik í 50 manna úrtaki?{}``}
+
+\begin{itemize}
+\tightlist
+\item
+  Ef líkur þess eru \textbf{yfir} 5\% (p \textgreater{} 0,05), þá tölum við um að prófið sé \textbf{ómarktækt} (gefið \(\alpha\) = 0,05).
+\item
+  Ef líkur þess eru \textbf{undir} 5\% (p \textless{} 0,05), þá tölum við um að prófið sé \textbf{marktækt} (gefið að \(\alpha\) = 0,05).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Litlar líkur --\textgreater{} ólíklegt að núlltilgáta sé rétt --\textgreater{} marktækt próf --\textgreater{} höfnum núlltilgátu --\textgreater{} höfnum því að það sé enginn munur --\textgreater{} tökum upp aðaltilgátu --\textgreater{} ályktum að það sé munur = meðalgreind sálfræðinema við HR er \textbf{ekki} 100 (þekkt meðalgreind)
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{breytingar-uxe1-skjali}{%
+\chapter{Breytingar á skjali}\label{breytingar-uxe1-skjali}}
+
+\textbf{Útgáfa 1}: 18 janúar
+
+\textbf{Útgáfa 2}: 22 janúar
+
+\begin{itemize}
+\item
+  \textbf{Breytingar:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Vikmörk í dæmi 2 um öryggisbil lagfært - þar voru þau 120.000 en áttu að vera 140.000
+  \end{itemize}
+\item
+  \textbf{Bætt við:}
+
+  \begin{itemize}
+  \item
+    Kafla 4.1: Mikilvægir eiginleikar öryggisbila
+  \item
+    Kafla 4.2: Hvað stjórnar breidd öryggisbila?
+  \item
+    Kafla 4.3: Öryggið í öryggisbilum
+  \item
+    Kafla 5: Z-próf
+  \end{itemize}
+\end{itemize}
 
   \bibliography{book.bib,packages.bib}
 

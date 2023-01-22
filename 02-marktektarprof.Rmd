@@ -35,7 +35,7 @@ Næsta spurning er þá -- hversu litlar þurfa líkurnar að vera svo við séu
 Höfum samt í huga að þó 5% séu lágar líkur, þá eru þær ekki 0% -- svo við *gætum* við haft rangt fyrir okkur. Skoðum því aðeins hvernig niðurstaða gæti verið rétt eða röng með því að gefa okkur eftirfarandi aðstæður í þýði:
 
 |               |                                       |                                  |
-|------------------|----------------------------|---------------------------|
+|---------------|---------------------------------------|----------------------------------|
 |               | **Það er ekki munur á launum í þýði** | **Það er munur á launum í þýði** |
 | **Marktækt**  | Höfnunarmistök (type I error)         | Rétt niðurstaða - Afköst         |
 | **Ómarktækt** | Rétt niðurstaða                       | Fastheldnimistök (type II error) |

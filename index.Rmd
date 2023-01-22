@@ -73,7 +73,10 @@ mánaðarlaun hvers einstaklings í úrtakinu. Rannsóknarspurningin er
 einnig skýr en hana mætti endurorða á eftirfarandi hátt: Við viljum
 athuga hvort meðal mánaðarlaun á Íslandi séu að jafnaði ólík á milli
 tveggja hópa; þeirra sem hafa háskólamenntun og þeirra sem hafa hana
-ekki. ^[Spurningin gæti þó verið sett upp á ólíkan hátt eftir því
-hvernig við kjósum að mæla breyturnar og hvaða tölfræðiaðferð við notum]
+ekki. [^index-2]
+
+[^index-2]: Spurningin gæti þó verið sett upp á ólíkan hátt eftir því
+    hvernig við kjósum að mæla breyturnar og hvaða tölfræðiaðferð við
+    notum
 
 <!-- Spurningin okkar er einnig skýr og við gætum endurorðað hana á eftirfarandi hátt: Eru mánaðarlaun að jafnaði hærri eftir því sem fjöldi ára í námi eykst? Við getum einfaldað spurninguna enn meira og athugað hvort það sé munur á meðallaunum þeirra sem hafa lokið háskólamenntun og þeirra sem hafa ekki lokið neinni háskólamenntun. -->
