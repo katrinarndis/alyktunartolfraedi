@@ -17,3 +17,7 @@
     -   Kafla 4.3: Öryggið í öryggisbilum
 
     -   Kafla 5: Z-próf
+
+**Útgáfa 3**: 11 febrúar
+
+-   **Bætt við**: Kafli 7: æfingardæmi fyrir kí-kvaðrat.

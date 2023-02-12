@@ -18,4 +18,13 @@ mikilvægir-eiginleikar-öryggisbila
 hvað-stjórnar-breidd-öryggisbila
 öryggið-í-öryggisbilum
 z-próf
+kí-kvaðrat-æfingardæmi
+rauntíðni-og-jaðardreifing.
+væntitíðni
+skilyrt-dreifing.
+kí-kvaðratgildið
+athugaðu-marktekt
+reikna-áhrifastærð
+líkindahlutfall
+túlkun-niðurstaðna.
 breytingar-á-skjali

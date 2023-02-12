@@ -4,6 +4,7 @@
 - setja tilvísanir aftast í orðabok
 - bæta við textbox. 
   - t.d. í index í setningu "Þessi spurning gefur til kynna að við "
+- https://bookdown.org/yihui/bookdown/html-widgets.html
 
 
 # Umfjöllun sem vantar 
@@ -58,4 +59,8 @@ Ef aðaltilgátan er tvíhliða þá þarf sömuleiðis að tvöfalda p-gildið 
 # Almennt sem ég þarf að athuga
 - tékka á lokaprófi 
 - athuga með hjálparsíðu bókarinnar 
+
+
+# Vandamál 
+
 
