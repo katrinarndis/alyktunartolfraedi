@@ -276,5 +276,6 @@ Alls 210 farþegar dóu (48,5% allra farþega) og af þessum voru 130 ljóshær�
 
 <summary>Samantekt á niðurstöðum</summary>
 
-Marktækt samband var á milli hárlitar farþega um borð Titanic og hvort þau dóu, ${\chi}^2 (1, N = 433) = 56,72, p < 0,001$. Áhrif hárlitar voru miðlungssterk, Cramer\'s V = 0,36 en líkindahlutfallið var 4,6 þar sem ljóshærðir voru 4,6x líklegri til að deyja heldur en dökkhærðir.
+Marktækt samband var á milli hárlitar farþega um borð Titanic og hvort þau dóu, ${\chi}^2 (1, N = 433) = 56,72, p < 0,001$. Áhrif hárlitar voru miðlungssterk, Cramer's V = 0,36 en líkindahlutfallið var 4,6 þar sem ljóshærðir voru 4,6x líklegri til að deyja heldur en dökkhærðir.
+
 </details>

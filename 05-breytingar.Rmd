@@ -18,6 +18,6 @@
 
     -   Kafla 5: Z-próf
 
-**Útgáfa 3**: 11 febrúar
+**Útgáfa 3**: 12 febrúar
 
--   **Bætt við**: Kafli 7: æfingardæmi fyrir kí-kvaðrat.
+-   **Bætt við**: Kafli 6: æfingardæmi fyrir kí-kvaðrat.
